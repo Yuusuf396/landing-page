@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+     
+    background:  #ffffe6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  img{
+      max-width: 100;
+  }
+.container{
+     
+    display: flex;
+    flex-direction: row;
+    justify-content: center  ;
+    align-items:center; 
+}
+
+
+ul{
+    display: flex;
+    gap:25px;
+}
+
+
+/* Logo */
+.logo h1{
+    padding: 20px ;
+    margin-left: 40px;
+}
+
+
+/* Navbar */
+
+.navbar{
+    background:   #4d94ff;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.navbar a {  
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 4px;
+}
+.navbar ul{
+    list-style-type: none;
+    
+    margin: 15px 15px;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 10px;
+}
+
+.nav{
+    margin-right: 40px;
+}
+.navbar ul :hover{
+    color: #e6e6ff;
+    transition: 0.3s;
+     
+}
+
+/* Header */
+.header .container{
+    display: flex;
+    justify-content: space-around;
+    color:  #ffffff;
+    background:   #00bfff;
+     
+}
+
+
+
+/* Card */
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    transition: 0.3s;
+
+}
+
+.card{
+     border-radius: 22px;
+    background:  #ccf2ff;
+    margin-top: 8px;
+    margin-bottom: 22px;
+    margin-left: 13px;
+    padding: 12px;
+    transition: 0.3s;
+    size: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    size: 90%;
+}
