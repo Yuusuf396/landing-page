@@ -12,15 +12,15 @@ body{
     background:  #ffffe6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-  img{
-      max-width: 100;
-  }
+ 
+ 
 .container{
      
     display: flex;
     flex-direction: row;
     justify-content: center  ;
     align-items:center; 
+    
 }
 
 
@@ -29,6 +29,9 @@ ul{
     gap:25px;
 }
 
+img{
+    width:600px;
+}
 
 /* Logo */
 .logo h1{
